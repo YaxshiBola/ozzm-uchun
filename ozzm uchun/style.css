@@ -4,11 +4,18 @@
     font-family: sans-serif;
 }
 
-@property --rotate {
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+
+/* @property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
     inherits: false;
-}
+} */
 
 :root {
     --card-height: 25vh;
